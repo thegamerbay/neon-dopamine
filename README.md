@@ -26,8 +26,6 @@
 
 Navigate through endless swarms of enemies, gather XP gems to level up, and choose from a pool of dynamic upgrades. How long can you survive the surge?
 
-📺 **[Watch the Gameplay Trailer/Walkthrough on YouTube](https://youtube.com/)** *(Coming soon)*
-
 ## ✨ Features
 
 * **Zero Dependencies:** Built from scratch with pure JS, HTML, and CSS.
