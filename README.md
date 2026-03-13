@@ -6,7 +6,7 @@
 
 > A vibrant, fast-paced arcade shooter where you survive relentless waves, collect XP, and level up to unlock devastating abilities.
 
-**[🕹️ Play the Live Demo Here!](https://artryazanov.github.io/neon-dopamine)**
+**[🕹️ Play the Live Demo Here!](https://thegamerbay.github.io/neon-dopamine/)**
 
 ![Gameplay Screenshot](assets/images/screenshot.gif)
 

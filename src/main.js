@@ -226,7 +226,7 @@ class Player extends Entity {
         if (this.health <= 0) {
             // Game Over logic
             console.log("Game Over!");
-            game.resetGame(); // Simple reset for now
+            game.showGameOver();
         }
     }
 
@@ -422,6 +422,15 @@ class Game {
                 playSound(600, 'sine', 0.3, 0.3); // Start game sound
                 document.getElementById('start-screen').classList.remove('visible');
                 this.startGame();
+            });
+        }
+
+        const menuBtn = document.getElementById('menu-btn');
+        if (menuBtn) {
+            menuBtn.addEventListener('click', () => {
+                playSound(600, 'sine', 0.3, 0.3); // Click sound
+                document.getElementById('game-over-screen').classList.remove('visible');
+                this.resetGame();
             });
         }
     }
@@ -773,6 +782,7 @@ class Game {
         screenShake.active = false;
 
         document.getElementById('level-up-overlay').classList.remove('visible');
+        document.getElementById('game-over-screen').classList.remove('visible');
         document.getElementById('start-screen').classList.add('visible');
         document.getElementById('level-text').textContent = `LVL 1`;
         const xpBarFill = document.getElementById('xp-bar-fill');
@@ -787,6 +797,19 @@ class Game {
         CTX.clearRect(0, 0, CANVAS.width, CANVAS.height);
 
         console.log("Game Reset!");
+    }
+
+    showGameOver() {
+        this.isRunning = false;
+        gamePaused = true;
+        
+        playSound(200, 'sawtooth', 0.5, 0.3); // Simple game over sound
+        
+        const gameOverScreen = document.getElementById('game-over-screen');
+        if (gameOverScreen) {
+            document.getElementById('final-level').textContent = `LEVEL ${this.player.level}`;
+            gameOverScreen.classList.add('visible');
+        }
     }
 }
 

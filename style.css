@@ -213,7 +213,7 @@ h2.overlay-title {
     margin-bottom: 30px;
 }
 
-#start-screen {
+#start-screen, #game-over-screen {
     position: absolute;
     top: 0;
     left: 0;
@@ -230,7 +230,7 @@ h2.overlay-title {
     overflow: hidden;
 }
 
-#start-screen::before {
+#start-screen::before, #game-over-screen::before {
     content: '';
     position: absolute;
     top: 0;
@@ -260,7 +260,7 @@ h2.overlay-title {
     }
 }
 
-#start-screen.visible {
+#start-screen.visible, #game-over-screen.visible {
     visibility: visible;
     opacity: 1;
     pointer-events: all;
@@ -313,7 +313,7 @@ h2.overlay-title {
     margin-top: 10px;
 }
 
-#start-btn {
+#start-btn, #menu-btn {
     background: linear-gradient(45deg, #110022, #2b0055);
     color: #39FF14;
     font-size: 2rem;
@@ -333,7 +333,7 @@ h2.overlay-title {
     pointer-events: auto;
 }
 
-#start-btn::before {
+#start-btn::before, #menu-btn::before {
     content: '';
     position: absolute;
     top: 0;
@@ -344,7 +344,7 @@ h2.overlay-title {
     transition: left 0.5s ease;
 }
 
-#start-btn:hover {
+#start-btn:hover, #menu-btn:hover {
     background: rgba(57, 255, 20, 0.15);
     box-shadow: 0 0 30px #39FF14, inset 0 0 30px #39FF14, 0 0 60px #39FF14;
     transform: scale(1.05);
@@ -352,11 +352,11 @@ h2.overlay-title {
     text-shadow: 0 0 10px #39FF14;
 }
 
-#start-btn:hover::before {
+#start-btn:hover::before, #menu-btn:hover::before {
     left: 100%;
 }
 
-#start-btn:active {
+#start-btn:active, #menu-btn:active {
     transform: scale(0.95);
     box-shadow: 0 0 10px #39FF14, inset 0 0 10px #39FF14;
 }
