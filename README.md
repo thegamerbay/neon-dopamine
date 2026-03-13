@@ -13,9 +13,9 @@
 ## 📸 Gameplay Gallery
 
 <p align="center">
-  <img src="assets/gameplay_1.png" width="33%" alt="Neon Surge Gameplay 1" style="border-radius: 10px; margin-bottom: 5px;">
-  <img src="assets/gameplay_2.png" width="33%" alt="Neon Surge Gameplay 2" style="border-radius: 10px; margin-bottom: 5px;">
-  <img src="assets/gameplay_3.png" width="33%" alt="Neon Surge Gameplay 3" style="border-radius: 10px; margin-bottom: 5px;">
+  <img src="assets/gameplay_1.png" width="32%" alt="Neon Surge Gameplay 1" style="border-radius: 10px; margin-bottom: 5px;">
+  <img src="assets/gameplay_2.png" width="32%" alt="Neon Surge Gameplay 2" style="border-radius: 10px; margin-bottom: 5px;">
+  <img src="assets/gameplay_3.png" width="32%" alt="Neon Surge Gameplay 3" style="border-radius: 10px; margin-bottom: 5px;">
   <img src="assets/gameplay_4.png" width="49%" alt="Neon Surge Gameplay 4" style="border-radius: 10px; margin-bottom: 5px;">
   <img src="assets/gameplay_5.png" width="49%" alt="Neon Surge Gameplay 5" style="border-radius: 10px; margin-top: 5px;">
 </p>
