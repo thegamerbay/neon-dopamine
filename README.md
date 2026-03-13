@@ -10,6 +10,16 @@
 
 ![Gameplay Screenshot](assets/images/screenshot.gif)
 
+## 📸 Gameplay Gallery
+
+<p align="center">
+  <img src="assets/gameplay_1.png" width="49%" alt="Neon Surge Gameplay 1" style="border-radius: 10px; margin-bottom: 5px;">
+  <img src="assets/gameplay_2.png" width="49%" alt="Neon Surge Gameplay 2" style="border-radius: 10px; margin-bottom: 5px;">
+  <img src="assets/gameplay_3.png" width="49%" alt="Neon Surge Gameplay 3" style="border-radius: 10px; margin-bottom: 5px;">
+  <img src="assets/gameplay_4.png" width="49%" alt="Neon Surge Gameplay 4" style="border-radius: 10px; margin-bottom: 5px;">
+  <img src="assets/gameplay_5.png" width="98%" alt="Neon Surge Gameplay 5" style="border-radius: 10px; margin-top: 5px;">
+</p>
+
 ## 📖 About the Game
 
 **Neon Surge: Dopamine Loop** is a pure browser-based game built entirely with vanilla JavaScript and the HTML5 Canvas API. No external engines, no dependencies—just raw logic and vibrant neon visuals.
@@ -55,13 +65,13 @@ To run the game locally, you need a local web server:
 ## 📂 Project Structure
 
 ```text
-├── assets/         # Sprites, audio tracks, and level data
-│   ├── audio/
-│   ├── images/
-│   └── data/
+├── assets/         # Gameplay screenshots
+│   ├── gameplay_1.png
+│   ├── gameplay_2.png
+│   ├── gameplay_3.png
+│   ├── gameplay_4.png
+│   └── gameplay_5.png
 ├── src/            # Core JavaScript logic
-│   ├── engine/
-│   ├── entities/
 │   └── main.js     # Main game loop and mechanics
 ├── index.html      # Main entry point
 ├── style.css       # UI and canvas styling
